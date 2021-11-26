@@ -1,7 +1,26 @@
 import React, { Component } from 'react';
 
 class Contact extends Component {
+   constructor(props) {
+      super(props);
+      this.state = { userName: "", userEmail: "", subject:"", userMessage: "" };
+    }
+
+    handleSubmit = e => {
+      fetch("/", {
+        method: "POST",
+        headers: { "Content-Type": "application/x-www-form-urlencoded" },
+        body: encode({ "form-name": "contact", ...this.state })
+      })
+        .then(() => alert("Success!"))
+        .catch(error => alert(error));
+
+      e.preventDefault();
+    };
+    handleChange = e => this.setState({ [e.target.name]: e.target.value });
+    
   render() {
+   const { userName, userEmail, subject, userMessage } = this.state;
 
     if(this.props.data){
       var name = this.props.data.name;
@@ -36,27 +55,27 @@ class Contact extends Component {
          <div className="row">
             <div className="eight columns">
 
-            <form name="contact" method="POST" data-netlify="true">
+              <form onSubmit={this.handleSubmit}>
 					<fieldset>
 
                   <div>
 						   <label htmlFor="contactName">Name <span className="required">*</span></label>
-						   <input type="text" defaultValue="" size="35" id="contactName" name="contactName" onChange={this.handleChange}/>
+						   <input type="text" defaultValue="" size="35" id="userName" name="userName" value={userName} onChange={this.handleChange}/>
                   </div>
 
                   <div>
 						   <label htmlFor="contactEmail">Email <span className="required">*</span></label>
-						   <input type="text" defaultValue="" size="35" id="contactEmail" name="contactEmail" onChange={this.handleChange}/>
+						   <input type="text" defaultValue="" size="35" id="userEmail" name="userEmail" value={userEmail}  onChange={this.handleChange}/>
                   </div>
 
                   <div>
 						   <label htmlFor="contactSubject">Subject</label>
-						   <input type="text" defaultValue="" size="35" id="contactSubject" name="contactSubject" onChange={this.handleChange}/>
+						   <input type="text" defaultValue="" size="35" id="subject" name="subject" value={subject} onChange={this.handleChange}/>
                   </div>
 
                   <div>
                      <label htmlFor="contactMessage">Message <span className="required">*</span></label>
-                     <textarea cols="50" rows="15" id="contactMessage" name="contactMessage"></textarea>
+                     <textarea cols="50" rows="15" id="userMessage" name="userMessage" value={userMessage} onChange={this.handleChange}></textarea>
                   </div>
                   <div>
                      <button  type="submit" className="submit">Submit</button>
