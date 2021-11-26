@@ -18,14 +18,14 @@
     "resumedownload": "http://timbakerdev.com",
     "social": [
       {
-        "name": "facebook",
-        "url": "https://www.facebook.com/sreenath.kalathel",
-        "className": "fa fa-facebook"
-      },
-      {
         "name": "linkedin",
         "url": "https://www.linkedin.com/in/sreenath-e-k-0417b7223/",
         "className": "fa fa-linkedin"
+      },
+      {
+        "name": "facebook",
+        "url": "https://www.facebook.com/sreenath.kalathel",
+        "className": "fa fa-facebook"
       },
       {
         "name": "instagram",
