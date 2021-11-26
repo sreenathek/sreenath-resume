@@ -1,18 +1,18 @@
 {
   "main": {
-    "name": "Sreenath E K",
-    "occupation": "(VLSI Engineer)",
-    "description": "To Succeed in an environment of growth and excellence and continue my career in VLSI industry as PD or PV engineer. Which provides me the opportunity to apply my skills and Knowledge and help me achieve personal as well as organizational goals.",
+    "name": "Tim Baker",
+    "occupation": "(Your Occupation Here)",
+    "description": "Here will be your description. Use this to describe what you do or whatever you feel best describes yourself to a potential employer",
     "image": "profilepic.jpg",
-    "bio": "I am an VLSI Engineer experienced in physical verification and physical design.",
+    "bio": "Use this bio section as your way of describing yourself and saying what you do, what technologies you like to use or feel most comfortable with, describing your personality, or whatever else you feel like throwing in.",
     "contactmessage": "Here is where you should write your message to readers to have them get in contact with you.",
-    "email": "sreenath464@gmail.com",
-    "phone": "7561858403",
+    "email": "youremailhere@gmail.com",
+    "phone": "555-555-5555",
     "address": {
-      "street": "(Ponnazhikkara)",
-      "city": "(Edappal)",
-      "state": "(Kerala)",
-      "zip": "(679576)"
+      "street": "(Your Street)",
+      "city": "(Your City)",
+      "state": "(Your State)",
+      "zip": "(Your Zip/Postal Code)"
     },
     "website": "http://www.timbakerdev.com",
     "resumedownload": "http://timbakerdev.com",
@@ -48,24 +48,24 @@
     "skillmessage": "Here you can create a short write-up of your skills to show off to employers",
     "education": [
       {
-        "school": "VIT University?",
-        "degree": "VLSI systems",
-        "graduated": "March 2021",
-        "description": "Done a project on Low power barellel shifter using reversible logic gates."
+        "school": "University?",
+        "degree": "Masters in Beer tasting",
+        "graduated": "April 2007",
+        "description": "Describe your experience at school, what you learned, what useful skills you have acquired etc."
       },
       {
-        "school": "Calicut University?",
-        "degree": "B.sc Electronics",
-        "graduated": "April 2016",
-        "description": "Done a project on Safe and secure travel in train using Microcontroller,GPS and sensor modules."
+        "school": "School #1 Maybe College?",
+        "degree": "What did you study 101",
+        "graduated": "March 2003",
+        "description": "Describe your experience at school, what you learned, what useful skills you have acquired etc."
       }
     ],
     "work": [
       {
-        "company": "Wipro",
-        "title": "VLSI Engineer",
-        "years": "March 2017 - Present",
-        "description": "I have Executed multiple project in Intel account as an phyisical verification and physical design engineer, Worked in 7nm,14nm,22nm technology nodes."
+        "company": "Awesome Design Studio",
+        "title": "Senior UX God ",
+        "years": "March 2010 - Present",
+        "description": "Describe work, special projects, notable achievements, what technologies you have been working with, and anything else that would be useful for an employer to know."
       },
       {
         "company": "Super Cool Studio",
@@ -76,31 +76,31 @@
     ],
     "skills": [
       {
-        "name": "Physical Verification",
-        "level": "87%"
+        "name": "Git",
+        "level": "60%"
       },
       {
-        "name": "Physical Design",
+        "name": "Illustrator",
+        "level": "55%"
+      },
+      {
+        "name": "ReactJs",
+        "level": "50%"
+      },
+      {
+        "name": "CSS",
+        "level": "90%"
+      },
+      {
+        "name": "HTML5",
         "level": "80%"
       },
       {
-        "name": "DRC",
-        "level": "88%"
+        "name": "VueJs",
+        "level": "50%"
       },
       {
-        "name": "LVS",
-        "level": "89%"
-      },
-      {
-        "name": "Antena",
-        "level": "82%"
-      },
-      {
-        "name": "Density",
-        "level": "83%"
-      },
-      {
-        "name": "PnR",
+        "name": "MongoDB",
         "level": "80%"
       }
     ]
