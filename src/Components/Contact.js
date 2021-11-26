@@ -90,7 +90,7 @@ class Contact extends Component {
                <div className="widget widget_tweets">
                   <h4 className="widget-title">Latest Tweets</h4>
                   <ul id="twitter">
-                     <li>
+                     {/* <li>
                         <span>
                         This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet.
                         Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum
@@ -105,7 +105,7 @@ class Contact extends Component {
                         <a href="#">http://t.co/CGIrdxIlI3</a>
                         </span>
                         <b><a href="#">3 Days Ago</a></b>
-                     </li>
+                     </li> */}
                   </ul>
 		         </div>
             </aside>
